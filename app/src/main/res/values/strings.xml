@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MeetingOnLine</string>
+    <string name="app_name_china">嗨聊</string>
+
+    <!--button-->
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+
+    <!--Splash-->
+    <string name="network_not_available">没有检查到网络，请您检查后重新尝试</string>
+    <string name="network_2g_5g_available">您当前处于2G/3G/4G网络下，继续使用可能会产生流量费用，您确定要继续使用吗？</string>
+    <string name="warn_network">网络状态</string>
+
+    <!--Login-->
+    <string name="input_name">输入用户名，6~16位数组字母</string>
+    <string name="input_password">输入密码，6~16位数字字母</string>
+    <string name="input_password_again">请再次输入密码</string>
+    <string name="login_name">嗨聊ID</string>
+    <string name="sign_nickname">昵 称</string>
+    <string name="login_password">密 码</string>
+    <string name="remember_name_password">记住密码</string>
+    <string name="login">现在登录</string>
+    <string name="signUp">还没有账户，去注册</string>
+    <string name="login_error">您的嗨聊ID或者密码错误，请重新输入</string>
+
+
+    <!--SignUp-->
+    <string name="sign_password">密码确认</string>
+    <string name="sign">注 册</string>
+    <string name="pass_different">两次密码输入不一致，请重新设置</string>
+    <string name="pass_none">密码不能为空,且长度6~16</string>
+    <string name="nickname_none">昵称不能为空</string>
+    <string name="sign_success">恭喜您注册成功，欢迎来到嗨聊</string>
+
+
+    <!--Home-->
+    <string name="contact">联系人</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="establish_session">发起视频会议</string>
+
+    <string name="personal_center">个人中心</string>
+
+    <!--ViewHolder-->
+    <string name="on_line">在线</string>
+    <string name="off_line">离线</string>
+
+    <!--TestContact-->
+    <string name="testUserId">pangjiaqi</string>
+    <string name="testUserPass">hahaha</string>
+</resources>
