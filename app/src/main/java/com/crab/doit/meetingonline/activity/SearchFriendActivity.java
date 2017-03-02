@@ -56,4 +56,14 @@ public class SearchFriendActivity extends Activity {
             }
         });
     }
+
+    public void click(View view){
+        switch (view.getId()){
+            case R.id.cancel:
+                finish();
+                break;
+            default:
+                break;
+        }
+    }
 }

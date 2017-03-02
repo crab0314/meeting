@@ -39,7 +39,7 @@
     <string name="establish_session">发起视频会议</string>
     <string name="select_participant">选择参与人</string>
     <string name="confirm_gray">确定</string>
-    <string name="confirm_number">确定(%d)</string>
+    <string name="confirm_number">确定(%1d)</string>
 
     <string name="personal_center">个人中心</string>
     <string name="unknown_name">unknown</string>
@@ -54,6 +54,11 @@
     <!--SearchFriend-->
     <string name="search_friend">添加联系人</string>
     <string name="search_hint">用户ID/手机号</string>
+
+    <!--OnMeeting-->
+    <string name="on_meeting">会议进行中(%d)</string>
+    <string name="quit_message">您确定要退出正在进行的会议吗？（退出之后只能通过被邀请加入）</string>
+    <string name="quit_title">退出确认</string>
 
     <!--ViewHolder-->
     <string name="on_line">在线</string>

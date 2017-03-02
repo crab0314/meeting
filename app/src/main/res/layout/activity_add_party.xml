@@ -14,18 +14,44 @@
 
         <Button
             style="@style/buttonTitle"
+            android:id="@+id/cancel"
             android:text="@string/negative"
-            android:layout_alignParentLeft="true"/>
+            android:layout_alignParentLeft="true"
+            android:onClick="click"/>
 
         <Button
             style="@style/buttonTitle"
+            android:id="@+id/confirm"
             android:text="@string/confirm_gray"
             android:layout_alignParentRight="true"
             android:enabled="false"
             android:textColor="@drawable/color_text_confirm"
+            android:onClick="click"
             />
 
     </RelativeLayout>
 
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add 1"
+            android:onClick="click"/>
+
+        <Button
+            android:id="@+id/dec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="des 1"
+            android:onClick="click"/>
+
+    </LinearLayout>
 
 </RelativeLayout>

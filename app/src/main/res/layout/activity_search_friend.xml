@@ -14,6 +14,8 @@
 
         <Button
             style="@style/buttonTitle"
+            android:id="@+id/cancel"
+            android:onClick="click"
             android:text="@string/negative"/>
 
     </RelativeLayout>
