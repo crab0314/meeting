@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_open"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        android:title="@string/establish_session" />
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/add_contact" />
+</menu>

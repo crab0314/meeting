@@ -5,22 +5,21 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/mainBlue">
+        style="@style/blueTitle">
 
         <TextView
-            style="@style/blueTitle"
+            style="@style/textTitle"
             android:text="@string/contact"
             />
 
-        <ImageView
+        <Button
+            android:id="@+id/more_option"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="5dp"
-            android:background="@mipmap/add1"/>
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/more"/>
 
     </RelativeLayout>
 

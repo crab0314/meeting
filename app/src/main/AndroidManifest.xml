@@ -18,6 +18,8 @@
         <activity android:name=".activity.LoginActivity"></activity>
         <activity android:name=".activity.SignUpActivity"></activity>
         <activity android:name=".activity.HomeActivity"></activity>
+        <activity android:name=".activity.AddPartyActivity"></activity>
+        <activity android:name=".activity.SearchFriendActivity"></activity>
     </application>
 
 </manifest>

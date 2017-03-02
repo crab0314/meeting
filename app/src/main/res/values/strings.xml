@@ -37,8 +37,23 @@
     <string name="contact">联系人</string>
     <string name="add_contact">添加联系人</string>
     <string name="establish_session">发起视频会议</string>
+    <string name="select_participant">选择参与人</string>
+    <string name="confirm_gray">确定</string>
+    <string name="confirm_number">确定(%d)</string>
 
     <string name="personal_center">个人中心</string>
+    <string name="unknown_name">unknown</string>
+    <string name="user_id_unknown">ID:</string>
+    <string name="user_id">ID:%d</string>
+    <string name="manage_account">账号管理</string>
+    <string name="allow_cellular">3G/4G网络允许通话</string>
+    <string name="check_new">检查新版本</string>
+    <string name="binding_phone">绑定手机号</string>
+    <string name="quit">退出</string>
+
+    <!--SearchFriend-->
+    <string name="search_friend">添加联系人</string>
+    <string name="search_hint">用户ID/手机号</string>
 
     <!--ViewHolder-->
     <string name="on_line">在线</string>
